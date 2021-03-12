@@ -1,5 +1,5 @@
-import uniq from './uniq.js'
-import without from './without.js'
+import uniq from './methods/uniq.js'
+import without from './methods/without.js'
 
 function initLodash() {
     return {
