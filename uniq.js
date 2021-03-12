@@ -1,12 +1,14 @@
-function uniq(arr) {
-    if (!Array.isArray(arr)) return undefined
+export function uniq(array) {
+    if (!Array.isArray(array)) return undefined
 
-    const uniqArr = []
+    const uniqArray = []
 
-    return arr.filter(el => {
-        if (!uniqArr.includes(el)) {
-            uniqArr.push(el)
+    return array.filter(el => {
+        if (!uniqArray.includes(el)) {
+            uniqArray.push(el)
             return el
         }
     })
 }
+
+export default uniq
