@@ -1,5 +1,5 @@
 export function uniq(array) {
-    if (!Array.isArray(array)) return undefined
+    if (!Array.isArray(array)) return []
 
     const uniqArray = []
 

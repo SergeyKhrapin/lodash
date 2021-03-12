@@ -1,8 +1,10 @@
 import uniq from './uniq.js'
+import without from './without.js'
 
 function initLodash() {
     return {
-        uniq
+        uniq,
+        without
     }
 }
 
